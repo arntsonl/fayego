@@ -9,8 +9,7 @@ import (
 	"errors"
 	"fmt"
 	"sync"
-
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 )
 
 const CHANNEL_HANDSHAKE = "/meta/handshake"
